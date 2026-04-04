@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Apex Home Theater",
+    "phone": "555-hom-r92",
+    "category": "home-theater",
+    "city": "Austin",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "home-theater-red-charge",
+      "categoryGroup": "home-theater",
+      "name": "Red Charge",
+      "recipeFile": "home-theater/red-charge.astro",
+      "colors": {
+        "primary": "#4338CA",
+        "primaryDark": "#312E81",
+        "primaryLight": "#d0cdf2",
+        "secondary": "#3c32b6",
+        "accent": "#8B5CF6",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#4338CA",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "home-theater/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Austin's Home Theater Experts",
+      "heroSubline": "Custom installations designed for Central Texas homes. From historic bungalows to modern builds, we optimize your space for immersive entertainment.",
+      "aboutTitle": "Why Apex Home Theater Stands Out",
+      "aboutText": [
+        "Founded in 2012, Apex Home Theater has transformed over 800 Austin-area residences with precision audio-visual solutions. Our team of 20+ specialists understands how limestone foundations and open-concept Texas layouts impact sound quality.",
+        "We approach each project with architectural sensitivity—whether preserving the charm of a Barton Hills cottage or integrating tech into a Mueller modern build. Our designs account for Austin's extreme heat and humidity to ensure lasting performance.",
+        "As active members of the Austin Film Society, we're committed to enhancing our community's viewing experiences. A portion of every installation supports local arts education initiatives."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Tech",
+          "description": "Equipment rated for Texas heat with humidity-resistant wiring to prevent degradation."
+        },
+        {
+          "title": "Space-Smart Designs",
+          "description": "Solutions tailored to Austin's varied home layouts—from cozy bungalows to vaulted-ceiling builds."
+        },
+        {
+          "title": "Local Knowledge",
+          "description": "12 years mastering installations amid Central Texas' unique foundation and acoustic challenges."
+        },
+        {
+          "title": "Future-Ready Systems",
+          "description": "Modular setups that evolve with Austin's rapidly advancing tech infrastructure."
+        }
+      ],
+      "ctaHeadline": "Ready for Theater-Quality Entertainment at Home?",
+      "ctaSubline": "Schedule your free Austin-area consultation with our design specialists today."
+    },
+    "services": [
+      {
+        "slug": "custom-home-theater-design",
+        "name": "Custom Home Theater Design",
+        "shortDescription": "Bespoke media rooms optimized for Austin's architectural diversity.",
+        "description": "We create theater spaces that respect your home's character while delivering cinematic impact. For historic Central Austin properties, we employ non-invasive mounting techniques that preserve original walls. In newer Round Rock subdivisions, we optimize open-concept spaces with acoustic treatments that maintain sightlines.\n\nOur designs account for Austin's extreme temperature swings—equipment placement avoids exterior walls prone to heat transfer, and we specify components with enhanced cooling systems. Texas-sized entertainment demands Texas-tough solutions: all wiring meets strict moisture resistance standards for our humid climate.",
+        "process": [
+          "Step 1: On-site evaluation of room dimensions, existing wiring, and structural considerations",
+          "Step 2: 3D modeling with climate and usage scenario simulations",
+          "Step 3: Material selection based on your home's age and architecture",
+          "Step 4: Installation with foundation-sensitive mounting systems"
+        ],
+        "benefits": [
+          "Preserves architectural integrity of older homes",
+          "Mitigates heat-related equipment stress",
+          "Optimizes acoustics for your specific space",
+          "Includes future upgrade pathways"
+        ],
+        "faq": [
+          {
+            "question": "How do you handle installations in homes with limestone foundations?",
+            "answer": "We use specialized vibration-dampening mounts and avoid core drilling that could compromise structural integrity. Our techniques have been perfected through hundreds of Austin-area installations."
+          },
+          {
+            "question": "What's unique about media rooms in newer Austin builds?",
+            "answer": "Modern open layouts require strategic sound containment. We implement discrete acoustic panels that blend with contemporary finishes while preventing audio bleed to other living spaces."
+          }
+        ]
+      },
+      {
+        "slug": "whole-home-audio",
+        "name": "Whole-Home Audio",
+        "shortDescription": "Seamless sound systems for entertaining across Austin homes.",
+        "description": "From South Congress patio parties to Circle C family gatherings, our distributed audio systems adapt to Central Texas lifestyles. We design zone-based solutions that account for Austin's mix of indoor/outdoor living—weatherproof speakers for pool areas, humidity-resistant components for screened porches.\n\nFor older homes, we conceal wiring within existing chaseways to maintain historic charm. In contemporary builds, we integrate with smart home systems popular in Austin's tech-savvy neighborhoods. Climate considerations are built in: all exterior components carry IP65 ratings to withstand sudden Central Texas downpours.",
+        "process": [
+          "Step 1: Lifestyle assessment and entertainment priorities",
+          "Step 2: Architectural review for optimal speaker placement",
+          "Step 3: Climate-appropriate equipment selection",
+          "Step 4: Smart home integration programming"
+        ],
+        "benefits": [
+          "Weather-resistant outdoor audio solutions",
+          "Preservation-conscious installation methods",
+          "Native compatibility with Austin's prevalent smart home systems",
+          "Expandable as your needs evolve"
+        ],
+        "faq": [
+          {
+            "question": "Can you retrofit audio into my 1950s Austin bungalow?",
+            "answer": "Absolutely. We specialize in minimally invasive installations using existing cavities and custom-milled trim pieces that match original millwork."
+          },
+          {
+            "question": "How do you prevent humidity damage to outdoor speakers?",
+            "answer": "We install with proper drainage slopes and use marine-grade components rated for Central Texas' 90%+ summer humidity levels."
+          }
+        ]
+      },
+      {
+        "slug": "tv-wall-mounting",
+        "name": "TV Wall Mounting",
+        "shortDescription": "Secure installations for Austin's diverse wall constructions.",
+        "description": "Austin's mix of historic plaster, modern drywall, and exterior limestone demands specialized mounting expertise. We assess each wall's composition before drilling—using stud finders calibrated for Texas' unique framing standards and moisture meters to identify potential problem areas.\n\nFor homes in flood-prone zones, we install at safe elevations with cable management that prevents water damage. In newer Pflugerville builds, we optimize viewing angles for open-concept living spaces. Every installation includes our earthquake-rated safety guarantee—rare in Texas but essential given our shifting clay soils.",
+        "process": [
+          "Step 1: Structural assessment of mounting location",
+          "Step 2: Selection of appropriate hardware for your wall type",
+          "Step 3: Precision alignment for optimal viewing",
+          "Step 4: Cable concealment tailored to your room layout"
+        ],
+        "benefits": [
+          "Wall-specific mounting solutions",
+          "Flood-zone safety considerations",
+          "Viewing angle optimization",
+          "Includes cable management systems"
+        ],
+        "faq": [
+          {
+            "question": "Can you mount TVs on Austin's limestone walls?",
+            "answer": "Yes, with specialized anchors designed for sedimentary rock. We complete test bores to verify integrity before full installation."
+          },
+          {
+            "question": "How do you handle plaster walls in older homes?",
+            "answer": "We use spread-load anchors and vibration-dampening mounts to prevent cracking in historic lath-and-plaster construction."
+          }
+        ]
+      },
+      {
+        "slug": "smart-lighting-control",
+        "name": "Smart Lighting Control",
+        "shortDescription": "Automated lighting scenes for Austin's entertainment spaces.",
+        "description": "Our lighting designs enhance movie nights while respecting Central Texas' architectural character. For Victorian homes in Georgetown, we replicate period-appropriate switch plates with smart capabilities. In modern Mueller builds, we create sleek touchpanel interfaces.\n\nSystems are programmed with Austin's lifestyle in mind—preset 'sunset modes' account for our intense summer glare, while 'storm watch' settings automatically brighten rooms during sudden Central Texas downpours. All components are selected for heat tolerance, with failsafes to prevent overheating in uninsulated attics.",
+        "process": [
+          "Step 1: Lighting audit and usage pattern analysis",
+          "Step 2: Fixture compatibility assessment",
+          "Step 3: Scene programming based on your routines",
+          "Step 4: Heat-management system integration"
+        ],
+        "benefits": [
+          "Architecture-sensitive control interfaces",
+          "Weather-responsive automation",
+          "Energy monitoring compatible with Austin Energy rebates",
+          "Local electrician partnerships for permitted work"
+        ],
+        "faq": [
+          {
+            "question": "Can smart lighting work with my historic home's existing fixtures?",
+            "answer": "In most cases yes—we install discreet smart switches that preserve original fixtures while adding modern control."
+          },
+          {
+            "question": "How does the system handle Austin's frequent power fluctuations?",
+            "answer": "All our controllers include surge protection rated for Texas grid conditions, with battery backups to maintain settings during outages."
+          }
+        ]
+      },
+      {
+        "slug": "acoustic-treatment",
+        "name": "Acoustic Treatment",
+        "shortDescription": "Sound optimization for Central Texas homes.",
+        "description": "Austin's mix of hard surfaces and open layouts creates unique acoustic challenges. Our treatments balance sound quality with aesthetic harmony—custom fabric-wrapped panels for modern lofts, discreet bass traps concealed in traditional wainscoting.\n\nWe address region-specific issues: specialized low-frequency absorption for homes near Austin's live music venues, vibration isolation for properties along busy thoroughfares. Treatments are designed considering our humidity—materials resist warping while maintaining acoustic properties through seasonal changes.",
+        "process": [
+          "Step 1: Room analysis with professional measurement tools",
+          "Step 2: Identification of problem frequencies and reflections",
+          "Step 3: Custom treatment design matching your decor",
+          "Step 4: Climate-stable installation"
+        ],
+        "benefits": [
+          "Localized solutions for Austin's noise profiles",
+          "Humidity-resistant materials",
+          "Architecturally integrated designs",
+          "Musician-approved tuning"
+        ],
+        "faq": [
+          {
+            "question": "Can acoustic treatment help with noise from Austin street traffic?",
+            "answer": "Yes—we use mass-loaded vinyl solutions specifically calibrated for Central Texas' mix of road surfaces and vehicle types."
+          },
+          {
+            "question": "Will treatments make my room feel smaller?",
+            "answer": "Our designs actually enhance spatial perception by controlling problematic reflections—many clients report rooms feeling more expansive."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Maya T.",
+        "rating": 5,
+        "service": "Custom Home Theater Design",
+        "text": "The team transformed our 1920s Hyde Park bungalow's awkward sunroom into a stunning media space. They preserved the original windows while installing blackout solutions that disappear when not in use. The soundproofing makes movie nights incredible—our neighbors three doors down have the same house layout and are always complaining about noise bleed, but we have zero issues.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Raj P.",
+        "rating": 5,
+        "service": "Whole-Home Audio",
+        "text": "Our new construction in Circle C needed audio that could handle backyard pool parties without dominating the space. Apex installed invisible speakers under the eaves and a subwoofer disguised as a planter. The system automatically adjusts volume based on ambient noise—perfect for Austin's unpredictable weather when parties suddenly move indoors.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Lisa and Tom W.",
+        "rating": 5,
+        "service": "TV Wall Mounting",
+        "text": "After two failed attempts by others to mount our 85\" TV on the limestone wall in our downtown condo, Apex got it done perfectly. They used some kind of laser leveling system and custom-fabricated brackets that account for the stone's uneven surface. Six months later—through multiple temperature swings—it's still rock solid.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Carlos R.",
+        "rating": 5,
+        "service": "Smart Lighting Control",
+        "text": "The 'Texas sunset' lighting preset they programmed has been life-changing for our west-facing living room in Mueller. At exactly 7:30pm when the sun blasts through our windows, the system gradually adjusts to compensate. Guests always ask about it—way more impressive than just clapping lights on and off.",
+        "date": "2024-11-17"
+      },
+      {
+        "name": "Nina S.",
+        "rating": 5,
+        "service": "Acoustic Treatment",
+        "text": "As a violinist with a home studio near Airport Blvd, I was skeptical anything could help with both street noise and room acoustics. Apex's combination of bass traps and specialized panels eliminated 90% of the low-end rumble while making my recordings sound professional. The best part? The treatments look like intentional art installations.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "James K.",
+        "rating": 5,
+        "service": "Custom Home Theater Design",
+        "text": "Our media room in a new Pflugerville build had terrible echo issues due to the vaulted ceilings. Apex designed a floating cloud diffuser that not only fixed the acoustics but became a conversation piece—it mimics the Texas sky at night with tiny LED 'stars.' Movie dialogue is crystal clear now, even during our rowdy family watch parties.",
+        "date": "2024-09-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Austin Home Theater Installation Experts | Apex Home Theater",
+        "description": "Specializing in custom media rooms for Central Texas homes. Serving Austin, Round Rock, Cedar Park with climate-adapted AV solutions since 2012."
+      },
+      "about": {
+        "title": "About Our Austin Home Theater Company",
+        "description": "Learn how our local expertise creates better entertainment spaces in Austin's unique homes—from historic districts to new developments."
+      },
+      "services": {
+        "title": "Austin Home Theater Services & Installation",
+        "description": "Comprehensive AV solutions designed for Texas homes: theater design, whole-home audio, acoustic treatments and smart lighting control."
+      },
+      "contact": {
+        "title": "Contact Austin's Home Theater Specialists",
+        "description": "Schedule your free consultation with Apex Home Theater. Serving the Austin metro including Round Rock, Cedar Park, Georgetown."
+      },
+      "reviews": {
+        "title": "Austin Home Theater Client Testimonials",
+        "description": "See what Central Texas homeowners say about their Apex Home Theater installations across diverse Austin-area properties."
+      },
+      "service-areas": {
+        "title": "Austin Area Home Theater Service Locations",
+        "description": "Proudly serving Round Rock, Cedar Park, Georgetown, Pflugerville with custom AV solutions for each community's unique homes."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Round Rock",
+        "slug": "round-rock-tx",
+        "state": "TX",
+        "content": "Apex Home Theater proudly serves Round Rock, TX, a thriving city with a population of around 240,000. Known for its family-friendly subdivisions built primarily in the 1990s and 2000s, Round Rock offers a perfect setting for homeowners looking to upgrade their entertainment spaces. Our expert team specializes in designing home theaters that cater to the needs of modern families, whether it's a cozy media room or a high-end cinematic experience. With scorching summers often exceeding 100°F, our installations ensure year-round comfort, blending cutting-edge technology with energy-efficient solutions.",
+        "localContext": "Round Rock features 1990s-2000s family subdivisions and a hot climate with summers exceeding 100°F.",
+        "nearbyAreas": [
+          "Austin",
+          "Cedar Park",
+          "Pflugerville"
+        ]
+      },
+      {
+        "city": "Cedar Park",
+        "slug": "cedar-park-tx",
+        "state": "TX",
+        "content": "Cedar Park, TX, with its population of approximately 82,000, is a rapidly growing suburban community that emerged in the 2000s. Apex Home Theater is dedicated to helping Cedar Park residents transform their homes into entertainment hubs. Whether you're in a newly built subdivision or an established neighborhood, our custom home theater solutions are tailored to your space and lifestyle. The hot summers here, often surpassing 100°F, make indoor entertainment a priority, and our systems are designed to deliver immersive experiences while keeping energy efficiency in mind.",
+        "localContext": "Cedar Park is a 2000s suburban growth area with hot summers exceeding 100°F.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Leander",
+          "Austin"
+        ]
+      },
+      {
+        "city": "Georgetown",
+        "slug": "georgetown-tx",
+        "state": "TX",
+        "content": "Georgetown, TX, home to around 75,000 residents, is renowned for its charming Victorian downtown and historic homes. Apex Home Theater brings modern entertainment solutions to this picturesque city, blending state-of-the-art technology with the unique architectural character of Georgetown's homes. Whether you're restoring a historic property or upgrading a newer build, our home theater installations are designed to complement your space. With summers frequently exceeding 100°F, our systems ensure you can enjoy premium entertainment in a climate-controlled environment.",
+        "localContext": "Georgetown boasts charming Victorian downtown homes and a hot climate with summers over 100°F.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Liberty Hill",
+          "Cedar Park"
+        ]
+      },
+      {
+        "city": "Pflugerville",
+        "slug": "pflugerville-tx",
+        "state": "TX",
+        "content": "Pflugerville, TX, with a population of about 73,000, is known for its affordable newer construction homes, making it an ideal location for families and first-time homeowners. Apex Home Theater specializes in creating budget-friendly yet high-quality home theater systems for Pflugerville residents. Our team understands the importance of maximizing entertainment value without compromising on performance. Given the hot summers, often exceeding 100°F, our installations prioritize comfort and energy efficiency, ensuring you can enjoy your favorite movies and shows year-round.",
+        "localContext": "Pflugerville features affordable newer construction homes and hot summers exceeding 100°F.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Austin",
+          "Hutto"
+        ]
+      },
+      {
+        "city": "Leander",
+        "slug": "leander-tx",
+        "state": "TX",
+        "content": "Leander, TX, is a fast-growing city with a population of around 60,000, known for its family-friendly communities and scenic landscapes. Apex Home Theater is proud to serve Leander residents with custom home theater solutions that enhance their living spaces. Whether you're in a new development or an established neighborhood, our team designs systems that fit your needs and budget. With summers often surpassing 100°F, our installations provide a cool retreat for enjoying movies, sports, and gaming in ultimate comfort.",
+        "localContext": "Leander is a rapidly expanding city with family-oriented communities and hot summers over 100°F.",
+        "nearbyAreas": [
+          "Cedar Park",
+          "Liberty Hill",
+          "Round Rock"
+        ]
+      },
+      {
+        "city": "Hutto",
+        "slug": "hutto-tx",
+        "state": "TX",
+        "content": "Hutto, TX, a small but rapidly growing city with around 30,000 residents, is famous for its unique hippo-themed charm and affordable housing. Apex Home Theater brings top-tier entertainment solutions to Hutto homeowners, offering custom home theater installations that fit any budget. Our team works closely with you to create a space that reflects your style and meets your entertainment needs. With scorching summers frequently exceeding 100°F, our systems ensure you can enjoy a cool, immersive viewing experience.",
+        "localContext": "Hutto is known for its hippo-themed charm and affordable housing, with hot summers over 100°F.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Pflugerville",
+          "Taylor"
+        ]
+      },
+      {
+        "city": "Liberty Hill",
+        "slug": "liberty-hill-tx",
+        "state": "TX",
+        "content": "Liberty Hill, TX, a quaint yet growing community with around 5,000 residents, offers a small-town feel with easy access to larger cities. Apex Home Theater is excited to serve Liberty Hill with personalized home theater solutions that cater to its unique charm. Whether you're in a historic home or a new build, our team designs systems that blend seamlessly with your space. The hot summers, often exceeding 100°F, make our climate-controlled entertainment systems a perfect addition to your home.",
+        "localContext": "Liberty Hill combines a small-town vibe with hot summers exceeding 100°F.",
+        "nearbyAreas": [
+          "Georgetown",
+          "Leander",
+          "Cedar Park"
+        ]
+      },
+      {
+        "city": "Taylor",
+        "slug": "taylor-tx",
+        "state": "TX",
+        "content": "Taylor, TX, a historic city with around 17,000 residents, is known for its rich railroad heritage and charming downtown. Apex Home Theater is proud to bring modern entertainment solutions to Taylor's diverse mix of historic and newer homes. Our custom home theater installations are designed to respect the character of your home while delivering cutting-edge performance. With summers often surpassing 100°F, our systems provide a comfortable escape for enjoying your favorite media.",
+        "localContext": "Taylor features a historic downtown and hot summers exceeding 100°F.",
+        "nearbyAreas": [
+          "Hutto",
+          "Round Rock",
+          "Georgetown"
+        ]
+      },
+      {
+        "city": "Brushy Creek",
+        "slug": "brushy-creek-tx",
+        "state": "TX",
+        "content": "Brushy Creek, TX, an unincorporated community near Round Rock, offers a suburban lifestyle with access to excellent schools and parks. Apex Home Theater serves Brushy Creek residents with premium home theater installations tailored to their needs. Whether you're looking for a sleek media room or a full-fledged cinema, our team delivers exceptional results. The hot summers, often exceeding 100°F, make our energy-efficient systems a smart choice for year-round entertainment.",
+        "localContext": "Brushy Creek is a suburban community with hot summers over 100°F.",
+        "nearbyAreas": [
+          "Round Rock",
+          "Cedar Park",
+          "Austin"
+        ]
+      },
+      {
+        "city": "Wells Branch",
+        "slug": "wells-branch-tx",
+        "state": "TX",
+        "content": "Wells Branch, TX, a vibrant neighborhood in the Austin metro area, is known for its affordable homes and strong community vibe. Apex Home Theater is dedicated to enhancing the entertainment experience for Wells Branch residents with custom home theater solutions. Our installations are designed to fit any space, from compact media rooms to expansive home cinemas. With summers frequently exceeding 100°F, our systems ensure you can enjoy top-notch entertainment in a comfortable, climate-controlled environment.",
+        "localContext": "Wells Branch offers affordable housing and a community-focused lifestyle, with hot summers over 100°F.",
+        "nearbyAreas": [
+          "Austin",
+          "Round Rock",
+          "Pflugerville"
+        ]
+      },
+      {
+        "city": "Jollyville",
+        "slug": "jollyville-tx",
+        "state": "TX",
+        "content": "Jollyville, TX, a suburban area north of Austin, is known for its convenient location and mix of older and newer homes. Apex Home Theater provides Jollyville residents with high-quality home theater installations that elevate their entertainment experience. Our team works with you to design a system that fits your space and budget. The hot summers, often surpassing 100°F, make our climate-controlled setups an ideal way to enjoy movies and shows without the heat.",
+        "localContext": "Jollyville features a mix of older and newer homes with hot summers exceeding 100°F.",
+        "nearbyAreas": [
+          "Austin",
+          "Round Rock",
+          "Cedar Park"
+        ]
+      },
+      {
+        "city": "Manor",
+        "slug": "manor-tx",
+        "state": "TX",
+        "content": "Manor, TX, a rapidly growing city with around 13,000 residents, offers a blend of rural charm and suburban convenience. Apex Home Theater is excited to serve Manor with custom home theater solutions that cater to its unique character. Whether you're in a historic farmhouse or a modern subdivision, our installations are tailored to your needs. With summers often exceeding 100°F, our systems provide a cool, immersive escape for your entertainment needs.",
+        "localContext": "Manor combines rural charm with suburban growth and hot summers over 100°F.",
+        "nearbyAreas": [
+          "Austin",
+          "Pflugerville",
+          "Elgin"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "custom-home-theater-design": "/images/service-custom-home-theater-design.webp",
+      "whole-home-audio": "/images/service-whole-home-audio.webp",
+      "tv-wall-mounting": "/images/service-tv-wall-mounting.webp",
+      "smart-lighting-control": "/images/service-smart-lighting-control.webp",
+      "acoustic-treatment": "/images/service-acoustic-treatment.webp"
+    },
+    "servicesResponsive": {
+      "custom-home-theater-design": {
+        "src": "/images/service-custom-home-theater-design.webp",
+        "srcset": "/images/service-custom-home-theater-design-400w.webp 400w, /images/service-custom-home-theater-design-800w.webp 800w, /images/service-custom-home-theater-design-1200w.webp 1200w, /images/service-custom-home-theater-design.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "whole-home-audio": {
+        "src": "/images/service-whole-home-audio.webp",
+        "srcset": "/images/service-whole-home-audio-400w.webp 400w, /images/service-whole-home-audio-800w.webp 800w, /images/service-whole-home-audio-1200w.webp 1200w, /images/service-whole-home-audio.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "tv-wall-mounting": {
+        "src": "/images/service-tv-wall-mounting.webp",
+        "srcset": "/images/service-tv-wall-mounting-400w.webp 400w, /images/service-tv-wall-mounting-800w.webp 800w, /images/service-tv-wall-mounting-1200w.webp 1200w, /images/service-tv-wall-mounting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "smart-lighting-control": {
+        "src": "/images/service-smart-lighting-control.webp",
+        "srcset": "/images/service-smart-lighting-control-400w.webp 400w, /images/service-smart-lighting-control-800w.webp 800w, /images/service-smart-lighting-control-1200w.webp 1200w, /images/service-smart-lighting-control.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "acoustic-treatment": {
+        "src": "/images/service-acoustic-treatment.webp",
+        "srcset": "/images/service-acoustic-treatment-400w.webp 400w, /images/service-acoustic-treatment-800w.webp 800w, /images/service-acoustic-treatment-1200w.webp 1200w, /images/service-acoustic-treatment.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
